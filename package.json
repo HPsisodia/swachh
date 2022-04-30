@@ -1,0 +1,41 @@
+{
+  "name": "swachh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HPsisodia/swachh.git"
+  },
+  "author": "Hardik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HPsisodia/swachh/issues"
+  },
+  "homepage": "https://github.com/HPsisodia/swachh#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "open": "^8.4.0",
+    "qrcode": "^1.5.0",
+    "shortid": "^2.2.16",
+    "twilio": "^3.76.1"
+  }
+}
